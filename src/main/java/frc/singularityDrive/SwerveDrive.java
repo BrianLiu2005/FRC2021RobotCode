@@ -132,6 +132,8 @@ public class SwerveDrive  {
      * 
      */
 
+    
+
     public void swerveDrive(double vertical, double horizontal, double nextRotation, double gyroRotation) {
         //double size = 1.0;
 
@@ -143,7 +145,7 @@ public class SwerveDrive  {
         SmartDashboard.putNumber("Horizontal", horizontal);
         SmartDashboard.putNumber("Rotation", nextRotation);
 
-        //Vectors[0] is thetranslation vector
+        //Vectors[0] is the translation vector
         //Vectors[1] is the rotation vector
         Vector[] fl_vectors = new Vector[2];
         Vector[] fr_vectors = new Vector[2];
